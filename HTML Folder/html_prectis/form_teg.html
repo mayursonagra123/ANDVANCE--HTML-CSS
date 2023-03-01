@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <form method="post" action="test.html">
+
+        <b>Name:</b><input type="text" placeholder="Enter Name" required pattern="[a-zA-z]+" title="min 2 and max 5 letters" name="nm"><br><br>
+
+        <b>Email:</b><input type="email"><br><br>
+
+
+        <b>Mobile:</b><input type="text" placeholder="Enter Mobile" required pattern="[0-9]{10}" title="10 digits"><br><br>
+
+        <b>Password:</b><input type="password" name="pwd"><br><br>
+
+        <b>country:</b><select>
+
+            <option hidden>--select your country--</option>
+            <option>INDIA</option>
+            <option>UAE</option>
+            <option>USA</option>
+            <option>Australia</option><br><br>
+
+        </select>
+
+        <br><br>
+
+        <b>Address:</b>
+        <textarea rows="5" cols="80"></textarea> <br><br>
+
+        <b>Date:</b><input type="date"><br><br>
+
+
+        <b>Gender:</b>
+        <input type="radio" name="m">Male
+        <input type="radio" name="m">Female
+        <input type="radio" name="m">Others
+
+        <br><br>
+
+        <b>Languages:</b>
+
+        <input type="checkbox">Hindi
+        <input type="checkbox">Gujrati
+        <input type="checkbox">English
+        <input type="checkbox">Telugu
+
+        <br><br>
+
+        <b>Date-time:</b>
+        <input type="datetime-local"><br><br>
+
+        <b>Color:</b>
+        <input type="color"><br><br>
+
+
+        <b>Upload File:</b>
+        <input type="file"> <br><br>
+
+
+        <input type="submit">
+        <input type="reset">
+
+
+
+
+
+</form>
+
+    </body>
+</html>
